@@ -1,0 +1,57 @@
+Python Library Documentation: class WasapiSettings in module sounddevice
+
+class WWaassaappiiSSeettttiinnggss(builtins.object)
+ |  WasapiSettings(exclusive=False, auto_convert=False, explicit_sample_format=False)
+ |  
+ |  Methods defined here:
+ |  
+ |  ____iinniitt____(self, exclusive=False, auto_convert=False, explicit_sample_format=False)
+ |      WASAPI-specific input/output settings.
+ |      
+ |      Objects of this class can be used as *extra_settings* argument
+ |      to `Stream()` (and variants) or as `default.extra_settings`.
+ |      They can also be used in `check_input_settings()` and
+ |      `check_output_settings()`.
+ |      
+ |      Parameters
+ |      ----------
+ |      exclusive : bool
+ |          Exclusive mode allows to deliver audio data directly to
+ |          hardware bypassing software mixing.
+ |      
+ |      auto_convert : bool
+ |          Allow WASAPI backend to insert system-level channel matrix
+ |          mixer and sample rate converter to support playback formats
+ |          that do not match the current configured system settings.
+ |          This is in particular required for streams not matching the
+ |          system mixer sample rate.  This only applies in *shared
+ |          mode* and has no effect when *exclusive* is set to ``True``.
+ |      
+ |      explicit_sample_format : bool
+ |          Force explicit sample format and do not allow PortAudio to
+ |          select suitable working format. API will fail if provided
+ |          sample format is not supported by audio hardware in Exclusive
+ |          mode or system mixer in Shared mode. This is required for
+ |          accurate native format detection.
+ |      
+ |      Examples
+ |      --------
+ |      Setting exclusive mode when calling `play()`:
+ |      
+ |      >>> import sounddevice as sd
+ |      >>> wasapi_exclusive = sd.WasapiSettings(exclusive=True)
+ |      >>> sd.play(..., extra_settings=wasapi_exclusive)
+ |      
+ |      Setting exclusive mode as default:
+ |      
+ |      >>> sd.default.extra_settings = wasapi_exclusive
+ |      >>> sd.play(...)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors defined here:
+ |  
+ |  ____ddiicctt____
+ |      dictionary for instance variables
+ |  
+ |  ____wweeaakkrreeff____
+ |      list of weak references to the object

@@ -1,0 +1,32 @@
+Available Audio Devices:
+[0] Microsoft Sound Mapper - Input (HostAPI: MME, Input Ch: 2, Output Ch: 0)
+[1] Microphone Array (Intel® Smart  (HostAPI: MME, Input Ch: 4, Output Ch: 0)
+[2] Microsoft Sound Mapper - Output (HostAPI: MME, Input Ch: 0, Output Ch: 2)
+[3] Speakers (Realtek(R) Audio) (HostAPI: MME, Input Ch: 0, Output Ch: 2)
+[4] Primary Sound Capture Driver (HostAPI: Windows DirectSound, Input Ch: 2, Output Ch: 0)
+[5] Microphone Array (Intel® Smart Sound Technology for Digital Microphones) (HostAPI: Windows DirectSound, Input Ch: 4, Output Ch: 0)
+[6] Primary Sound Driver (HostAPI: Windows DirectSound, Input Ch: 0, Output Ch: 2)
+[7] Speakers (Realtek(R) Audio) (HostAPI: Windows DirectSound, Input Ch: 0, Output Ch: 2)
+[8] Speakers (Realtek(R) Audio) (HostAPI: Windows WASAPI, Input Ch: 0, Output Ch: 2)
+[9] Microphone Array (Intel® Smart Sound Technology for Digital Microphones) (HostAPI: Windows WASAPI, Input Ch: 2, Output Ch: 0)
+[10] Stereo Mix (Realtek HD Audio Stereo input) (HostAPI: Windows WDM-KS, Input Ch: 2, Output Ch: 0)
+[11] Microphone (Realtek HD Audio Mic input) (HostAPI: Windows WDM-KS, Input Ch: 2, Output Ch: 0)
+[12] Headphones 1 (Realtek HD Audio 2nd output with SST) (HostAPI: Windows WDM-KS, Input Ch: 0, Output Ch: 2)
+[13] Headphones 2 (Realtek HD Audio 2nd output with SST) (HostAPI: Windows WDM-KS, Input Ch: 0, Output Ch: 2)
+[14] PC Speaker (Realtek HD Audio 2nd output with SST) (HostAPI: Windows WDM-KS, Input Ch: 2, Output Ch: 0)
+[15] Speakers 1 (Realtek HD Audio output with SST) (HostAPI: Windows WDM-KS, Input Ch: 0, Output Ch: 2)
+[16] Speakers 2 (Realtek HD Audio output with SST) (HostAPI: Windows WDM-KS, Input Ch: 0, Output Ch: 2)
+[17] PC Speaker (Realtek HD Audio output with SST) (HostAPI: Windows WDM-KS, Input Ch: 2, Output Ch: 0)
+[18] Input () (HostAPI: Windows WDM-KS, Input Ch: 2, Output Ch: 0)
+[19] Headphones () (HostAPI: Windows WDM-KS, Input Ch: 0, Output Ch: 2)
+[20] Headphones () (HostAPI: Windows WDM-KS, Input Ch: 0, Output Ch: 2)
+[21] Headphones () (HostAPI: Windows WDM-KS, Input Ch: 0, Output Ch: 2)
+[22] Microphone Array 1 () (HostAPI: Windows WDM-KS, Input Ch: 2, Output Ch: 0)
+[23] Microphone Array 2 () (HostAPI: Windows WDM-KS, Input Ch: 2, Output Ch: 0)
+[24] Microphone Array 3 () (HostAPI: Windows WDM-KS, Input Ch: 4, Output Ch: 0)
+[25] Headphones () (HostAPI: Windows WDM-KS, Input Ch: 0, Output Ch: 2)
+[26] Headphones () (HostAPI: Windows WDM-KS, Input Ch: 0, Output Ch: 2)
+
+Default Devices:
+InputStream: 1
+OutputStream: 3
